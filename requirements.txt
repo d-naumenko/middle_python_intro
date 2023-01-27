@@ -1,0 +1,6 @@
+flake8==3.9.0
+pytest==6.2.5
+pre-commit==2.15.0
+wemake-python-styleguide==0.15.3
+flake8-bandit==2.1.2 
+bandit==1.7.2
