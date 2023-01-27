@@ -1,14 +1,13 @@
 """Генератор приветствий."""
-import pprint
 
-def Greeting(name: str) -> str:
-      """Возвращает текст приветствия.
 
-      Args:
-          name: Имя пользователя
+def greeting(name: str) -> str:
+    """Возвращает текст приветствия.
 
-      Returns:
-          int: Текст приветствия
-      """
-      # pprint.pprint(name.lower())
-      return 'Привет, name'
+    Args:
+        name: Имя пользователя
+
+    Returns:
+        str: Текст приветствия"""
+    name = name.title()
+    return 'Привет, {0}'.format(name)
